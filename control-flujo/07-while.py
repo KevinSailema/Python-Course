@@ -5,6 +5,10 @@
 
 comando = ""
 
-while comando != "salir"
-    comado = input("$ ")
+while comando.lower() != "salir":
+    comando = input("$ ")
     print(comando)
+    if comando.lower() == "salir":
+        break
+
+

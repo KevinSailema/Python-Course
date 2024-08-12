@@ -1,4 +1,4 @@
-edad = 60
+edad = 70
 if edad > 17:
     print("Puede ver la película con super descuento")  #Importante, poner espacios de identación.
 elif edad > 54:
@@ -8,4 +8,5 @@ elif edad > 53:
 else:
     print("No puedes entrar")
     print("Ve a otro lado")
-print("Listo")  
+print("Listo")
+
